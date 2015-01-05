@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["eiel.hal@gmail.com"]
   spec.summary       = %q{show last month git log}
   spec.description   = %q{show last month git log}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/eiel/git_month_commits"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
