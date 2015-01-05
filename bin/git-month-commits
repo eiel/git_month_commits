@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+$LOAD_PATH << File.join(File.dirname(__FILE__),"..","lib")
+require 'git_month_commits/cli'
+
+case ARGV[0]
+when 'open'
+  GitMonthCommits::CLI.new.open
+else
+  GitMonthCommits::CLI.new.log
+end
