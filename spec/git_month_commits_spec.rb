@@ -17,8 +17,8 @@ RSpec.describe GitMonthCommits do
       end
 
       let(:compare_url) { "https://github.com/eiel/git_month_commits/compare/"}
-      let(:since) { "e13422ceb12ed87346a7c760e5db8c9c5466b572" }
-      let(:untill) { "e13422ceb12ed87346a7c760e5db8c9c5466b572" }
+      let(:since) { "aeb2c16116dc6c38fd2c81a1b6958b40e935b28d" }
+      let(:untill) { "e7211879259049ad0941b9788028cdf3cf24d228" }
 
       it { is_expected.to eq("#{compare_url}#{since}...#{untill}") }
 
